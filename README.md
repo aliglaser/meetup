@@ -1,5 +1,9 @@
 # Teaming
 
+### Reqired Pypi
+
+django, django-channels, social-auth-app-django
+
 ## Model - Room, User
 
 ### Room 
