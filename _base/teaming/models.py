@@ -13,6 +13,5 @@ class Room( models.Model ):
     date =models.CharField( max_length =64 )
     location =models.CharField( max_lenth =128 )
 
-
 class TeamingUser( User ):
     pass

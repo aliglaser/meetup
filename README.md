@@ -1,5 +1,13 @@
 # Teaming
 
+## Concept
+
+Minimalized Make-team-webapp based on django. Anyone can simply sign in using their sns account or email, make or join any team they wnat, and go play!
+
+### Reqired Pypi
+
+django, django-channels, social-auth-app-django
+
 ## Model - Room, User
 
 ### Room 
