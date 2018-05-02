@@ -31,7 +31,7 @@ Room exposure fee on top
 Room order: created date.
 
 
-### User
+### TEAMINGUser : Uesr model - keyword is already being used.
 
 - profile image: server upload
 'URLField'
