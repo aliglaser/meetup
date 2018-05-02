@@ -4,9 +4,19 @@
 
 Minimalized Make-team-webapp based on django. Anyone can simply sign in using their sns account or email, make or join any team they wnat, and go play!
 
-### Reqired Pypi
+## Reqirement
 
-django, django-channels, social-auth-app-django
+### Pypi
+
+django, channels, channels_redis, social-auth-app-django
+
+### Others
+
+Redis-server
+
+    $ sudo apt install redis-server
+
+Or you can use docker if you want.
 
 ## Model - Room, User
 
