@@ -3,10 +3,15 @@
 ## Rayout
 
 ![](teaming/teaming_layout/New Mockup 1.png)
+
 ![](teaming/teaming_layout/New Mockup 2.png)
+
 ![](teaming/teaming_layout/New Mockup 3.png)
+
 ![](teaming/teaming_layout/New Mockup 4.png)
+
 ![](teaming/teaming_layout/New Mockup 5.png)
+
 ![](teaming/teaming_layout/New Mockup 1.png)
 
 ## Model - Room, User
