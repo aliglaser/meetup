@@ -1,16 +1,16 @@
 # Teaming
 
-## Rayout
+## Layout
 
-![](teaming/teaming_layout/New Mockup 1.png)
+![](https://raw.githubusercontent.com/aliglaser/teaming/master/teaming_layout/New%20Mockup%201.png)
 
-![](teaming/teaming_layout/New Mockup 2.png)
+![](https://raw.githubusercontent.com/aliglaser/teaming/master/teaming_layout/New%20Mockup%202.png)
 
-![](teaming/teaming_layout/New Mockup 3.png)
+![](https://raw.githubusercontent.com/aliglaser/teaming/master/teaming_layout/New%20Mockup%203.png)
 
-![](teaming/teaming_layout/New Mockup 4.png)
+![](https://raw.githubusercontent.com/aliglaser/teaming/master/teaming_layout/New%20Mockup%204.png)
 
-![](teaming/teaming_layout/New Mockup 5.png)
+![](https://raw.githubusercontent.com/aliglaser/teaming/master/teaming_layout/New%20Mockup%205.png)
 
 ![](teaming/teaming_layout/New Mockup 1.png)
 
