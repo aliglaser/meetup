@@ -3,16 +3,11 @@
 ## Layout
 
 ![](https://raw.githubusercontent.com/aliglaser/teaming/master/teaming_layout/New%20Mockup%201.png)
-
 ![](https://raw.githubusercontent.com/aliglaser/teaming/master/teaming_layout/New%20Mockup%202.png)
-
 ![](https://raw.githubusercontent.com/aliglaser/teaming/master/teaming_layout/New%20Mockup%203.png)
-
 ![](https://raw.githubusercontent.com/aliglaser/teaming/master/teaming_layout/New%20Mockup%204.png)
-
 ![](https://raw.githubusercontent.com/aliglaser/teaming/master/teaming_layout/New%20Mockup%205.png)
 
-![](teaming/teaming_layout/New Mockup 1.png)
 
 ## Model - Room, User
 
