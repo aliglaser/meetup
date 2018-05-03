@@ -1,3 +1,7 @@
+On Dev Branch: simple chat webapp - just for stepping bridge
+
+---------------------------------------------------------------------
+
 # Teaming
 
 ## Concept
