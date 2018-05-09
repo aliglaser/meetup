@@ -12,7 +12,7 @@ Minimalized Make-team-webapp based on django. Anyone can simply sign in using th
 
 ### Pypi
 
-django, channels, channels_redis, social-auth-app-django
+django, channels, channels_redis, social-auth-app-django, mysqlclient
 
 ### Others
 
