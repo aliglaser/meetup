@@ -22,6 +22,29 @@ Redis-server
 
 Or you can use docker if you want.
 
+### Docker
+
+Redis ( recommanded: you can use newer version of redis server with docker )
+
+Mysql: 5.5 or higher ( but latest mysql version(v8) doesn't work with phpmyadmin docker this time ).
+
+    docker run -d \
+    --name teaming-mysql \
+    -e MYSQL_ROOT_PASSWORD=admin \
+    -p 3306:3306 \
+    mysql:5
+
+(Optional) phpmyadmin
+
+    docker run -d \
+    --name teaming-myadmin \
+    --link teaming-mysql:db \
+    -p 8080:80 \
+    phpmyadmin/phpmyadmin
+
+And easily access mysql db with root/admin account.
+
+
 ## Model - Room, User
 
 ### Room 
