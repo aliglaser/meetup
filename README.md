@@ -1,4 +1,12 @@
+On Dev Branch: simple chat webapp - just for stepping bridge
+
+---------------------------------------------------------------------
+
 # Teaming
+
+## Concept
+
+Minimalized Make-team-webapp based on django. Anyone can simply sign in using their sns account or email, make or join any team they wnat, and go play!
 
 ## Layout
 
@@ -7,6 +15,41 @@
 ![](https://raw.githubusercontent.com/aliglaser/teaming/master/teaming_layout/New%20Mockup%203.png)
 ![](https://raw.githubusercontent.com/aliglaser/teaming/master/teaming_layout/New%20Mockup%204.png)
 ![](https://raw.githubusercontent.com/aliglaser/teaming/master/teaming_layout/New%20Mockup%205.png)
+## Reqirement
+
+### Pypi
+
+django, channels, channels-redis, social-auth-app-django, mysqlclient
+
+### Others
+
+Redis-server
+
+    $ sudo apt install redis-server
+
+Or you can use docker if you want.
+
+### Docker
+
+Redis ( recommanded: you can use newer version of redis server with docker )
+
+Mysql: 5.5 or higher ( but latest mysql version(v8) doesn't work with phpmyadmin docker this time ).
+
+    docker run -d \
+    --name teaming-mysql \
+    -e MYSQL_ROOT_PASSWORD=admin \
+    -p 3306:3306 \
+    mysql:5
+
+(Optional) phpmyadmin
+
+    docker run -d \
+    --name teaming-myadmin \
+    --link teaming-mysql:db \
+    -p 8080:80 \
+    phpmyadmin/phpmyadmin
+
+And easily access mysql db with root/admin account.
 
 
 ## Model - Room, User
@@ -32,7 +75,7 @@ Room exposure fee on top
 Room order: created date.
 
 
-### User
+### TEAMINGUser : Uesr model - keyword is already being used.
 
 - profile image: server upload
 'URLField'
